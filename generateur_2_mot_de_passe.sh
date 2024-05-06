@@ -12,10 +12,10 @@ read longueur
 #Demande envers l'utilisateur des sortes de caractères à inclure dans son mot de passe
 echo -e "\nOkay, donc nous sommes sur un mot de passe de $longueur caractères."
 
-echo -e "\nPour commencer, veux-tu des lettres minuscules ? (o/y)"
+echo -e "\nPour commencer, veux-tu des lettres minuscules ? (o/n)"
 read minuscules
 
-echo -e "\nVeux-tu des lettres Majuscules ? (o/y)"
+echo -e "\nVeux-tu des lettres Majuscules ? (o/n)"
 read majuscules
 
 echo -e "\nVeux-tu inclure dans ton mot de passe des chiffres ? (o/n)"
